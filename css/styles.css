@@ -1,4 +1,19 @@
 :root {
-  --main-color: #010225;
-  --secondary-color: #FF5B5B;
+  --color-black: #000;
+  --color-light-gray: #3C3C3C;
+  --color-light-green: #BDEFD7;
+  --color-medium-green: #3E976C;
+}
+
+body {
+  font-family: "Poppins", serif;
+}
+
+.header-logo h1 span {
+  color: var(--color-medium-green);
+}
+
+.navbar-nav li a {
+  color: var(--color-black);
+  font-weight: 600;
 }
